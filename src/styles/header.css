@@ -1,51 +1,163 @@
 .div1 {
-padding: 10px;
-/* background-color: aqua; */
-height: 690px;
-background-image: url("../images/01.jpeg");
-background-repeat: no-repeat;
-background-size: cover;
+  height: 600px;
+  background-image: url('../images/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  padding: 25px 100px 0px 100px;
 
+  /* background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0.580838) 32.24%,
+    rgba(0, 0, 0, 0.486293) 62.09%,
+    rgba(0, 0, 0, 0) 98.06%
+  ) */
 }
 
 .nav-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-image: url(""); */
-;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: blue;
+  /* background-image: url(""); */
 }
 
 .div2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-span {
+  border-radius: 70px;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: rgb(144, 144, 226);
+  padding: 3px;
 }
 
 .logo-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .logo {
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  /* margin-right: 10px; */
+}
+
+.logo-div > p {
+  margin-left: 20px;
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list > li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .sign-in {
-    background-color: white;
-    color: blue;
+  background-color: white;
+  color: blue;
+  width: 151px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+.plan {
+  font-size: 70px;
+  color: white;
+}
+
+.more-plan {
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 250;
+  padding-right: 500px;
+  color: white;
+
+}
+
+.book-here {
+  background-color: blue;
+  color: white;
+  width: 151px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+/* overflow that is in between Header and the next part */
+.overflow {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px;
+  /* margin-top: 50px; */
+  margin-bottom: -50px;
+}
+
+.overflow > div {
+  justify-content: center;
+  text-align: center;
+}
+
+.overflow > div > div {
+  display: flex;
+  margin-left: 10px;
+}
+
+.overflow > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.overflow > div > div,
+.overflow > div > p {
+  font-size: 12px;
+}
+
+.overflow > div > div > img {
+    margin: 0px 5px 0px 5px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.span {
+    margin-right: 10px;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  width: 151px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 21px;
 }
