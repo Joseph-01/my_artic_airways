@@ -3,7 +3,7 @@
   background-image: url('../images/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -113,8 +113,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 25px 0px 25px;
-  /* margin-top: 50px; */
-  margin-bottom: -50px;
+  margin-top: 150px;
+  
+  /* position: relative; */
+  /* margin-bottom: -50px; */
 }
 
 .overflow > div {
@@ -161,3 +163,9 @@
   font-size: 20px;
   line-height: 21px;
 }
+
+.book > img {
+    margin-left: 10px;
+}
+
+
