@@ -1,0 +1,41 @@
+.mountain {
+    display: flex;
+}
+
+.mountain > div > img {
+    height: 1000px;
+    width: 449.6px;
+}
+
+.mountain-div1 > p{
+    z-index: -10;
+    /* margin-left: 300px; */
+    margin-top: -700px;
+    margin-right: -300px;
+    font-weight: 700;
+    font-size: 50px;
+    
+    transform: rotate(-90deg);
+}
+
+.mountain-div2 > p{
+    z-index: -10;
+    /* margin-left: 300px; */
+    margin-top: -700px;
+    margin-right: -300px;
+    font-weight: 700;
+    font-size: 50px;
+    
+    transform: rotate(-90deg);
+}
+
+.mountain-div3 > p {
+  z-index: -10;
+  /* margin-left: 300px; */
+  margin-top: -700px;
+  margin-right: -300px;
+  font-weight: 700;
+  font-size: 50px;
+
+  transform: rotate(-90deg);
+}

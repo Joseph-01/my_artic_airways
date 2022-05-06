@@ -1,0 +1,35 @@
+.experience {
+    text-align: center;
+    height: 600px;
+    padding: 30px 50px 30px 50px;
+    background-color: #F8F9FC;
+}
+
+.experience > p {
+
+    margin-bottom: 100px;
+    
+}
+
+.p1 {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0 60px 0 60px;
+
+}
+
+.p2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+padding: 0 300px 0 300px;
+
+}
+
+
+.p3 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 0 60px 0 60px;
+
+}
